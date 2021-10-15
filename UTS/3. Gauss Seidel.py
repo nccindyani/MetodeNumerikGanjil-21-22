@@ -10,7 +10,7 @@ print("Menampilkan Matriks :")
 A = np.array([[3., 1., -1.],
               [2., 4., -1.],
               [-1., 5., -8.],])
-b = np.array([1, 5, 5])
+b = np.array([1.0, 5.0, 5.0])
 
 # Mencari nilai x1, x2, dan x3 dengan menggunakan Metode Gauss Seidel
 for i in range(A.shape[0]):                                                      # Misalkan nilai x1, x2, dan x3 diasumsikan ,[0 0 0]
